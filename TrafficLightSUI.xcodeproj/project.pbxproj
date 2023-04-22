@@ -55,12 +55,10 @@
 		6E4ABC4C29F2DFF200DA9A83 /* TrafficLightSUI */ = {
 			isa = PBXGroup;
 			children = (
-				6E4ABC4D29F2DFF200DA9A83 /* TrafficLightSUIApp.swift */,
-				6E4ABC4F29F2DFF200DA9A83 /* ContentView.swift */,
+				6E4ABC6029F41DA000DA9A83 /* App */,
+				6E4ABC5F29F41D7000DA9A83 /* Views */,
 				6E4ABC5129F2DFF300DA9A83 /* Assets.xcassets */,
 				6E4ABC5329F2DFF300DA9A83 /* Preview Content */,
-				6E4ABC5B29F2E1AF00DA9A83 /* TrafficSignalView.swift */,
-				6E4ABC5D29F2EF1100DA9A83 /* TextView.swift */,
 			);
 			path = TrafficLightSUI;
 			sourceTree = "<group>";
@@ -71,6 +69,24 @@
 				6E4ABC5429F2DFF300DA9A83 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E4ABC5F29F41D7000DA9A83 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6E4ABC4F29F2DFF200DA9A83 /* ContentView.swift */,
+				6E4ABC5B29F2E1AF00DA9A83 /* TrafficSignalView.swift */,
+				6E4ABC5D29F2EF1100DA9A83 /* TextView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6E4ABC6029F41DA000DA9A83 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6E4ABC4D29F2DFF200DA9A83 /* TrafficLightSUIApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
