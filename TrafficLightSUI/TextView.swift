@@ -8,23 +8,20 @@
 import SwiftUI
 
 struct TextView: View {
-    var text: String
+    let buttonText: String
     
     var body: some View {
-        Text(text)
+        Text(buttonText)
             .frame(width: 120, height: 20)
             .foregroundColor(.white)
             .font(.largeTitle)
             .padding()
-            //.padding(.horizontal, 40)
-            .background(
-                RoundedRectangle(cornerRadius: 20)
-            )
+            .background(RoundedRectangle(cornerRadius: 20))
     }
 }
 
 struct ButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        TextView(text: "")
+        TextView(buttonText: "")
     }
 }
